@@ -28,3 +28,11 @@ and in scripts add
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
 ```
+
+in vite.config.js add base
+```js
+export default defineConfig({
+  plugins: [react()],
+  base: "/sudoku-react",
+});
+```
