@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--site-bg);
-  height: 100vh;
+  height: 100%;
   padding: 5rem 0;
   overflow: auto;
 }
