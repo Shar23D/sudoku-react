@@ -11,15 +11,18 @@ Currently, two official plugins are available:
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
-## package.json
-
-at the top add
-
-```json
-"homepage": "https://shar23d.github.io/sudoku-react/",
+## Deployment to github page
+```bash
+npm install gh-pages --save-dev
 ```
 
-in scripts add
+at the top of package.json
+
+```json
+"homepage": "https://shar23d.github.io/sudoku-react",
+```
+
+and in scripts add
 
 ```json
     "predeploy": "npm run build",
