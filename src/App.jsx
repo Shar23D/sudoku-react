@@ -130,6 +130,7 @@ function App() {
         setCorrectCount(count);
         if (count === totalCells) clearInterval(interval);
       }, 30);
+      setTimeout(handleNewPuzzle, 3500);
     } else {
       setStatus("❌ Not quite right. Keep trying!");
       setStatusType("error");

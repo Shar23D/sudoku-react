@@ -22,7 +22,7 @@ const Controls = ({
       <button
         onClick={() => setIsNoteMode(!isNoteMode)}
         style={{
-          backgroundColor: isNoteMode ? "#a7c957" : "#edafb8",
+          backgroundColor: isNoteMode ? "#275b29" : "#ff8785",
           color: isNoteMode ? "white" : "#333d29",
           cursor: "pointer",
         }}
