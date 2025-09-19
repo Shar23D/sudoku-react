@@ -26,5 +26,5 @@ and in scripts add
 
 ```json
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
 ```
